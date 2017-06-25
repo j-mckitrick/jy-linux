@@ -1,0 +1,362 @@
+Initialized.
+logged @ 967065: ----------
+logged @ 967066: Startops: (#<<JY-OPERATION> {B2C36E9}>
+                            #<<JY-OPERATION> {B2C38D1}>
+                            #<<JY-OPERATION> {B2C4F19}>
+                            #<<JY-OPERATION> {B2C51C1}>)
+
+logged @ 967066: All devices: (scd1 scd2 mono1 mono2)
+
+logged @ 967066: CMD-INT-TIME scd1: ACTION-SET params: (EXP-VALUE 10)
+logged @ 967067: CMD-INT-TIME scd2: ACTION-SET params: (EXP-VALUE 10)
+logged @ 967067: CMD-MOVE mono1: ACTION-SET params: (EXP-VALUE 100)
+logged @ 967067: Move mono mono1 to 100.
+logged @ 967067: CMD-MOVE mono2: ACTION-SET params: (EXP-VALUE 100)
+logged @ 967067: Move mono mono2 to 100.
+logged @ 967068: Signal details: (X-SIZE 1 Y-SIZE 1 Z-SIZE 1 DATA-FORMAT DOUBLE)
+logged @ 967068: Signal details: (X-SIZE 1 Y-SIZE 1 Z-SIZE 1 DATA-FORMAT DOUBLE)
+logged @ 967068: Signal: (ID scd2 X-SIZE 1 Y-SIZE 1 Z-SIZE 1 DATA-FORMAT DOUBLE)
+logged @ 967079: Setup a signal: scd2
+logged @ 967079: Data dimensions: 1x1x1
+logged @ 967079: Data format: DOUBLE
+logged @ 967079: Signal: (ID scd1 X-SIZE 1 Y-SIZE 1 Z-SIZE 1 DATA-FORMAT DOUBLE)
+logged @ 967080: Setup a signal: scd1
+logged @ 967080: Data dimensions: 1x1x1
+logged @ 967080: Data format: DOUBLE
+logged @ 967080: Signals: (scd1 scd2)
+logged @ 967080: Running experiment.
+logged @ 967080: Execute setup.
+logged @ 967081: Started experiment thread.
+
+logged @ 967081: Copying signals (scd1 scd2)
+logged @ 967081: Tallied signals (scd1 scd2)
+logged @ 967081: Waiting for start.
+logged @ 967081: Entering sink...
+logged @ 967081: Execute axis 1.
+logged @ 967081: Kicking axis 1
+logged @ 967082: pre-op params: (EXP-VALUE 50)
+logged @ 967082: CMD-MOVE mono2: ACTION-SET params: (EXP-VALUE 2)
+logged @ 967082: Move mono mono2 to 2.
+logged @ 967082: Data op: #<<JY-OPERATION> {B2C5E61}>
+logged @ 967082: CMD-DATA scd1: ACTION-GET params: NIL
+logged @ 967082: Get-date w/integration time = 10
+logged @ 967093: Firing data event.
+logged @ 967093: Got data event! (scd1 8147)
+logged @ 967094: ... leaving sink
+logged @ 967094: Got signal scd1
+logged @ 967094: Tallied signals before (scd1 scd2)
+logged @ 967094: Tallied signals after (scd2)
+logged @ 967094: Length of data 1
+logged @ 967094: Points expected 10
+logged @ 967094: Entering sink...
+logged @ 967094: Waiting for handshake event.
+logged @ 967094: Received handshake event.
+logged @ 967094: Data op: #<<JY-OPERATION> {B2C6109}>
+logged @ 967095: CMD-DATA scd2: ACTION-GET params: NIL
+logged @ 967095: Get-date w/integration time = 10
+logged @ 967106: Firing data event.
+logged @ 967107: Got data event! (scd2 1354)
+logged @ 967107: ... leaving sink
+logged @ 967107: Got signal scd2
+logged @ 967107: Tallied signals before (scd2)
+logged @ 967107: Tallied signals after NIL
+logged @ 967107: Length of data 1
+logged @ 967107: Points expected 10
+logged @ 967107: Entering sink...
+logged @ 967107: Waiting for handshake event.
+logged @ 967108: Received handshake event.
+logged @ 967108: Kicking axis 1
+logged @ 967108: pre-op params: (EXP-VALUE 2)
+logged @ 967108: CMD-MOVE mono2: ACTION-SET params: (EXP-VALUE 3)
+logged @ 967108: Move mono mono2 to 3.
+logged @ 967109: Data op: #<<JY-OPERATION> {B2C5E61}>
+logged @ 967109: CMD-DATA scd1: ACTION-GET params: NIL
+logged @ 967109: Get-date w/integration time = 10
+logged @ 967120: Firing data event.
+logged @ 967120: Got data event! (scd1 9057)
+logged @ 967121: ... leaving sink
+logged @ 967121: Got signal scd1
+logged @ 967121: Tallied signals before (scd1 scd2)
+logged @ 967121: Tallied signals after (scd2)
+logged @ 967121: Length of data 2
+logged @ 967121: Points expected 10
+logged @ 967121: Entering sink...
+logged @ 967121: Waiting for handshake event.
+logged @ 967121: Received handshake event.
+logged @ 967121: Data op: #<<JY-OPERATION> {B2C6109}>
+logged @ 967122: CMD-DATA scd2: ACTION-GET params: NIL
+logged @ 967122: Get-date w/integration time = 10
+logged @ 967133: Firing data event.
+logged @ 967134: Got data event! (scd2 8350)
+logged @ 967134: ... leaving sink
+logged @ 967134: Got signal scd2
+logged @ 967134: Tallied signals before (scd2)
+logged @ 967134: Tallied signals after NIL
+logged @ 967134: Length of data 2
+logged @ 967134: Points expected 10
+logged @ 967134: Entering sink...
+logged @ 967134: Waiting for handshake event.
+logged @ 967134: Received handshake event.
+logged @ 967135: Kicking axis 1
+logged @ 967135: pre-op params: (EXP-VALUE 3)
+logged @ 967135: CMD-MOVE mono2: ACTION-SET params: (EXP-VALUE 4)
+logged @ 967135: Move mono mono2 to 4.
+logged @ 967135: Data op: #<<JY-OPERATION> {B2C5E61}>
+logged @ 967135: CMD-DATA scd1: ACTION-GET params: NIL
+logged @ 967135: Get-date w/integration time = 10
+logged @ 967146: Firing data event.
+logged @ 967147: Got data event! (scd1 1269)
+logged @ 967147: ... leaving sink
+logged @ 967147: Got signal scd1
+logged @ 967147: Tallied signals before (scd1 scd2)
+logged @ 967147: Tallied signals after (scd2)
+logged @ 967147: Length of data 3
+logged @ 967147: Points expected 10
+logged @ 967147: Entering sink...
+logged @ 967148: Waiting for handshake event.
+logged @ 967148: Received handshake event.
+logged @ 967148: Data op: #<<JY-OPERATION> {B2C6109}>
+logged @ 967148: CMD-DATA scd2: ACTION-GET params: NIL
+logged @ 967148: Get-date w/integration time = 10
+logged @ 967160: Firing data event.
+logged @ 967160: Got data event! (scd2 9688)
+logged @ 967160: ... leaving sink
+logged @ 967160: Got signal scd2
+logged @ 967160: Tallied signals before (scd2)
+logged @ 967160: Tallied signals after NIL
+logged @ 967160: Length of data 3
+logged @ 967160: Points expected 10
+logged @ 967161: Entering sink...
+logged @ 967161: Waiting for handshake event.
+logged @ 967161: Received handshake event.
+logged @ 967161: Kicking axis 1
+logged @ 967161: pre-op params: (EXP-VALUE 4)
+logged @ 967161: CMD-MOVE mono2: ACTION-SET params: (EXP-VALUE 5)
+logged @ 967161: Move mono mono2 to 5.
+logged @ 967161: Data op: #<<JY-OPERATION> {B2C5E61}>
+logged @ 967162: CMD-DATA scd1: ACTION-GET params: NIL
+logged @ 967162: Get-date w/integration time = 10
+logged @ 967173: Firing data event.
+logged @ 967174: Got data event! (scd1 9133)
+logged @ 967174: ... leaving sink
+logged @ 967174: Got signal scd1
+logged @ 967174: Tallied signals before (scd1 scd2)
+logged @ 967174: Tallied signals after (scd2)
+logged @ 967174: Length of data 4
+logged @ 967174: Points expected 10
+logged @ 967174: Entering sink...
+logged @ 967174: Waiting for handshake event.
+logged @ 967175: Received handshake event.
+logged @ 967175: Data op: #<<JY-OPERATION> {B2C6109}>
+logged @ 967175: CMD-DATA scd2: ACTION-GET params: NIL
+logged @ 967175: Get-date w/integration time = 10
+logged @ 967186: Firing data event.
+logged @ 967187: Got data event! (scd2 2210)
+logged @ 967187: ... leaving sink
+logged @ 967187: Got signal scd2
+logged @ 967187: Tallied signals before (scd2)
+logged @ 967187: Tallied signals after NIL
+logged @ 967187: Length of data 4
+logged @ 967187: Points expected 10
+logged @ 967187: Entering sink...
+logged @ 967187: Waiting for handshake event.
+logged @ 967187: Received handshake event.
+logged @ 967188: Kicking axis 1
+logged @ 967188: pre-op params: (EXP-VALUE 5)
+logged @ 967188: CMD-MOVE mono2: ACTION-SET params: (EXP-VALUE 6)
+logged @ 967188: Move mono mono2 to 6.
+logged @ 967188: Data op: #<<JY-OPERATION> {B2C5E61}>
+logged @ 967188: CMD-DATA scd1: ACTION-GET params: NIL
+logged @ 967188: Get-date w/integration time = 10
+logged @ 967199: Firing data event.
+logged @ 967200: Got data event! (scd1 6323)
+logged @ 967200: ... leaving sink
+logged @ 967200: Got signal scd1
+logged @ 967200: Tallied signals before (scd1 scd2)
+logged @ 967200: Tallied signals after (scd2)
+logged @ 967200: Length of data 5
+logged @ 967200: Points expected 10
+logged @ 967200: Entering sink...
+logged @ 967201: Waiting for handshake event.
+logged @ 967201: Received handshake event.
+logged @ 967201: Data op: #<<JY-OPERATION> {B2C6109}>
+logged @ 967201: CMD-DATA scd2: ACTION-GET params: NIL
+logged @ 967201: Get-date w/integration time = 10
+logged @ 967212: Firing data event.
+logged @ 967213: Got data event! (scd2 3081)
+logged @ 967213: ... leaving sink
+logged @ 967213: Got signal scd2
+logged @ 967213: Tallied signals before (scd2)
+logged @ 967213: Tallied signals after NIL
+logged @ 967213: Length of data 5
+logged @ 967213: Points expected 10
+logged @ 967213: Entering sink...
+logged @ 967213: Waiting for handshake event.
+logged @ 967214: Received handshake event.
+logged @ 967214: Kicking axis 1
+logged @ 967214: pre-op params: (EXP-VALUE 6)
+logged @ 967214: CMD-MOVE mono2: ACTION-SET params: (EXP-VALUE 7)
+logged @ 967214: Move mono mono2 to 7.
+logged @ 967214: Data op: #<<JY-OPERATION> {B2C5E61}>
+logged @ 967214: CMD-DATA scd1: ACTION-GET params: NIL
+logged @ 967215: Get-date w/integration time = 10
+logged @ 967225: Firing data event.
+logged @ 967225: Got data event! (scd1 975)
+logged @ 967226: ... leaving sink
+logged @ 967226: Got signal scd1
+logged @ 967226: Tallied signals before (scd1 scd2)
+logged @ 967226: Tallied signals after (scd2)
+logged @ 967226: Length of data 6
+logged @ 967226: Points expected 10
+logged @ 967226: Entering sink...
+logged @ 967226: Waiting for handshake event.
+logged @ 967226: Received handshake event.
+logged @ 967226: Data op: #<<JY-OPERATION> {B2C6109}>
+logged @ 967227: CMD-DATA scd2: ACTION-GET params: NIL
+logged @ 967227: Get-date w/integration time = 10
+logged @ 967238: Firing data event.
+logged @ 967239: Got data event! (scd2 5472)
+logged @ 967239: ... leaving sink
+logged @ 967239: Got signal scd2
+logged @ 967239: Tallied signals before (scd2)
+logged @ 967239: Tallied signals after NIL
+logged @ 967239: Length of data 6
+logged @ 967239: Points expected 10
+logged @ 967239: Entering sink...
+logged @ 967239: Waiting for handshake event.
+logged @ 967239: Received handshake event.
+logged @ 967240: Kicking axis 1
+logged @ 967240: pre-op params: (EXP-VALUE 7)
+logged @ 967240: CMD-MOVE mono2: ACTION-SET params: (EXP-VALUE 8)
+logged @ 967240: Move mono mono2 to 8.
+logged @ 967240: Data op: #<<JY-OPERATION> {B2C5E61}>
+logged @ 967240: CMD-DATA scd1: ACTION-GET params: NIL
+logged @ 967240: Get-date w/integration time = 10
+logged @ 967251: Firing data event.
+logged @ 967252: Got data event! (scd1 2784)
+logged @ 967252: ... leaving sink
+logged @ 967252: Got signal scd1
+logged @ 967252: Tallied signals before (scd1 scd2)
+logged @ 967252: Tallied signals after (scd2)
+logged @ 967252: Length of data 7
+logged @ 967252: Points expected 10
+logged @ 967252: Entering sink...
+logged @ 967252: Waiting for handshake event.
+logged @ 967252: Received handshake event.
+logged @ 967253: Data op: #<<JY-OPERATION> {B2C6109}>
+logged @ 967253: CMD-DATA scd2: ACTION-GET params: NIL
+logged @ 967253: Get-date w/integration time = 10
+logged @ 967264: Firing data event.
+logged @ 967264: Got data event! (scd2 1883)
+logged @ 967265: ... leaving sink
+logged @ 967265: Got signal scd2
+logged @ 967265: Tallied signals before (scd2)
+logged @ 967265: Tallied signals after NIL
+logged @ 967265: Length of data 7
+logged @ 967265: Points expected 10
+logged @ 967265: Entering sink...
+logged @ 967265: Waiting for handshake event.
+logged @ 967265: Received handshake event.
+logged @ 967265: Kicking axis 1
+logged @ 967266: pre-op params: (EXP-VALUE 8)
+logged @ 967266: CMD-MOVE mono2: ACTION-SET params: (EXP-VALUE 9)
+logged @ 967266: Move mono mono2 to 9.
+logged @ 967266: Data op: #<<JY-OPERATION> {B2C5E61}>
+logged @ 967266: CMD-DATA scd1: ACTION-GET params: NIL
+logged @ 967266: Get-date w/integration time = 10
+logged @ 967278: Firing data event.
+logged @ 967278: Got data event! (scd1 5468)
+logged @ 967278: ... leaving sink
+logged @ 967278: Got signal scd1
+logged @ 967278: Tallied signals before (scd1 scd2)
+logged @ 967278: Tallied signals after (scd2)
+logged @ 967278: Length of data 8
+logged @ 967278: Points expected 10
+logged @ 967278: Entering sink...
+logged @ 967279: Waiting for handshake event.
+logged @ 967279: Received handshake event.
+logged @ 967279: Data op: #<<JY-OPERATION> {B2C6109}>
+logged @ 967279: CMD-DATA scd2: ACTION-GET params: NIL
+logged @ 967279: Get-date w/integration time = 10
+logged @ 967290: Firing data event.
+logged @ 967290: Got data event! (scd2 9928)
+logged @ 967291: ... leaving sink
+logged @ 967291: Got signal scd2
+logged @ 967291: Tallied signals before (scd2)
+logged @ 967291: Tallied signals after NIL
+logged @ 967291: Length of data 8
+logged @ 967291: Points expected 10
+logged @ 967291: Entering sink...
+logged @ 967291: Waiting for handshake event.
+logged @ 967291: Received handshake event.
+logged @ 967291: Kicking axis 1
+logged @ 967292: pre-op params: (EXP-VALUE 9)
+logged @ 967292: CMD-MOVE mono2: ACTION-SET params: (EXP-VALUE 10)
+logged @ 967292: Move mono mono2 to 10.
+logged @ 967292: Data op: #<<JY-OPERATION> {B2C5E61}>
+logged @ 967292: CMD-DATA scd1: ACTION-GET params: NIL
+logged @ 967292: Get-date w/integration time = 10
+logged @ 967303: Firing data event.
+logged @ 967303: Got data event! (scd1 9575)
+logged @ 967304: ... leaving sink
+logged @ 967304: Got signal scd1
+logged @ 967304: Tallied signals before (scd1 scd2)
+logged @ 967304: Tallied signals after (scd2)
+logged @ 967304: Length of data 9
+logged @ 967304: Points expected 10
+logged @ 967304: Entering sink...
+logged @ 967304: Waiting for handshake event.
+logged @ 967304: Received handshake event.
+logged @ 967305: Data op: #<<JY-OPERATION> {B2C6109}>
+logged @ 967305: CMD-DATA scd2: ACTION-GET params: NIL
+logged @ 967305: Get-date w/integration time = 10
+logged @ 967316: Firing data event.
+logged @ 967316: Got data event! (scd2 9964)
+logged @ 967317: ... leaving sink
+logged @ 967317: Got signal scd2
+logged @ 967317: Tallied signals before (scd2)
+logged @ 967317: Tallied signals after NIL
+logged @ 967317: Length of data 9
+logged @ 967317: Points expected 10
+logged @ 967317: Entering sink...
+logged @ 967317: Waiting for handshake event.
+logged @ 967317: Received handshake event.
+logged @ 967318: Kicking axis 1
+logged @ 967318: pre-op params: (EXP-VALUE 10)
+logged @ 967318: CMD-MOVE mono2: ACTION-SET params: (EXP-VALUE 11)
+logged @ 967318: Move mono mono2 to 11.
+logged @ 967318: Data op: #<<JY-OPERATION> {B2C5E61}>
+logged @ 967318: CMD-DATA scd1: ACTION-GET params: NIL
+logged @ 967318: Get-date w/integration time = 10
+logged @ 967330: Firing data event.
+logged @ 967330: Got data event! (scd1 9648)
+logged @ 967330: ... leaving sink
+logged @ 967330: Got signal scd1
+logged @ 967330: Tallied signals before (scd1 scd2)
+logged @ 967330: Tallied signals after (scd2)
+logged @ 967330: Length of data 10
+logged @ 967331: Points expected 10
+logged @ 967331: Entering sink...
+logged @ 967331: Waiting for handshake event.
+logged @ 967331: Received handshake event.
+logged @ 967331: Data op: #<<JY-OPERATION> {B2C6109}>
+logged @ 967331: CMD-DATA scd2: ACTION-GET params: NIL
+logged @ 967331: Get-date w/integration time = 10
+logged @ 967342: Firing data event.
+logged @ 967343: Got data event! (scd2 9676)
+logged @ 967343: ... leaving sink
+logged @ 967343: Got signal scd2
+logged @ 967343: Tallied signals before (scd2)
+logged @ 967343: Tallied signals after NIL
+logged @ 967343: Length of data 10
+logged @ 967343: Points expected 10
+logged @ 967343: Exiting sink manager thread.
+logged @ 967343: Ahh! Joining exp-thread
+logged @ 967343: Waiting for handshake event.
+logged @ 967344: Received handshake event.
+logged @ 967344: Done axis 1.
+logged @ 967344: Execute cleanup.
+logged @ 967344: Setting done condition.
+logged @ 967344: Setting done data event.
+logged @ 967446: ----------
+

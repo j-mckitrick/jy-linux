@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<JY-SYSTEM CONFIG-NAME="Simple">
+    <DETECTORS>
+        <DETECTOR NAME="A Detector" ID="scd2">
+
+        </DETECTOR>
+        <DETECTOR NAME="A Detector" ID="scd1">
+
+        </DETECTOR>
+    </DETECTORS>
+    <MONOS>
+        <MONO NAME="A Mono" ID="mono2">
+
+        </MONO>
+        <MONO NAME="A Mono" ID="mono1">
+
+        </MONO>
+    </MONOS>
+</JY-SYSTEM>

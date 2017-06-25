@@ -1,0 +1,6 @@
+Startup procedure:
+
+- instantiate system
+- load selected config
+- initialize devices
+- show experiment window
